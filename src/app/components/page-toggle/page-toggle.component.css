@@ -1,0 +1,42 @@
+.pages {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.pages-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    list-style: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pages-numbers > li {
+    padding: 5px 20px 8px 20px;
+    border-radius: 20px;
+}
+
+i {
+    padding: 8px 11px;
+    border-radius: 50%;
+}
+
+.active {
+    background: #e6e6e6;
+}
+
+.pages-numbers > li:hover,
+.fa-chevron-right:hover {
+    background: #e6e6e6;
+    cursor: pointer;
+}
+
+.fa-chevron-left {
+    display: block;
+    color: #e6e6e6;
+    cursor: no-drop;
+}
